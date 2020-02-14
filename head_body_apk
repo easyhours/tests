@@ -1,0 +1,45 @@
+4.169.1 Head and Body virtual_batches
+
+HEAD
+====
+
+GET /driver/virtual_batches HTTP/1.1
+Authorization: Bearer 8303d2f9561a6f72f073720c8cb3b63aa9084545757c5e5826aaeca4ec99e750
+Accept: application/json
+Accept: application/json;version=3
+x-client-identifier: Android
+x-client-os: android
+x-client-version: 4.169.1
+User-Agent: Instacart Shopper 4.169.1 (store), (Android 5.1.1) (SM-G955F)
+Device-Info: {"device_id":"28e347a153323548","brand":"samsung","model":"SM-G955F","api_level":22,"os_version":"5.1.1","properties":{"google_play_services_status":true,"has_autofocus":true,"camera_res":240}}
+Device-Data: SM-G955F
+X-Request-ID: 4f36bb2e-3804-4b1e-be4c-1c8afa8f5bf0
+Host: shopper-api.instacart.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+If-None-Match: W/"8e6b647021c7d3f2c081ca9db5f02d0c"
+
+
+BODY
+====
+
+
+HTTP/1.1 304 Not Modified
+Date: Fri, 14 Feb 2020 15:24:53 GMT
+Connection: keep-alive
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: _mkra_ctxt=ad76fcb661ad565eb53edea20a6cfc6f--200; path=/; max-age=5; HttpOnly
+Set-Cookie: ahoy_visitor=bea6d32e-a111-4d42-9efd-5128df5e9b3e; path=/; expires=Mon, 14 Feb 2022 15:24:53 -0000
+Set-Cookie: ahoy_visit=dcdd3fa6-d201-4d43-9844-3f20e89c742f; path=/; expires=Fri, 14 Feb 2020 15:54:53 -0000
+Set-Cookie: ahoy_track=true; path=/
+ETag: W/"8e6b647021c7d3f2c081ca9db5f02d0c"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 4f36bb2e-3804-4b1e-be4c-1c8afa8f5bf0
+X-Runtime: 0.065583
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
